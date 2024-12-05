@@ -11,15 +11,12 @@ import ContactUs from './components/ContactUs/ContactUs'
 import ExternalLinks from './components/ExternalLinks/ExternalLinks'
 
 function App() {
+  const [mainState, setMainState] = useState([])
   return (
     <>
     <p>Logo</p>
       <Navbar/>
-      <Staff/>
-      <History/>
       <Main/>
-      <PastWork/>
-      <ContactUs/>
       <ExternalLinks/>
     </>
   )

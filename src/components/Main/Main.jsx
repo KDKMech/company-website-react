@@ -1,5 +1,6 @@
 import React from "react";
 import "./Main.css"
+import Staff from "../Staff/Staff";
 
 
 const Main = (props) => {
@@ -7,7 +8,7 @@ const Main = (props) => {
     return (
         <>
             <div id="MainContainer">
-            <h5>{mainContent}</h5>
+                <Staff/>
             </div>
         </>
     )
