@@ -17,9 +17,9 @@ const Navbar = (props) => {
     
 
     const buttons = [
-        {page: "staff", content: "all the staff"},
-        {page: "contact", content: "contact info"},
-        {page: "history", content: "history of the company"},
+        {page: "Staff", content: "all the staff"},
+        {page: "Contact", content: "contact info"},
+        {page: "History", content: "history of the company"},
     ]
 
   return (
