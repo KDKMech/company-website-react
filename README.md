@@ -26,6 +26,7 @@ planning for company webite:
         staff
         contactUs
         external links
-        
+
+Company Name:
 
     
