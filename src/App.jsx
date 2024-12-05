@@ -11,12 +11,17 @@ import ContactUs from './components/ContactUs/ContactUs'
 import ExternalLinks from './components/ExternalLinks/ExternalLinks'
 
 function App() {
-  const [mainState, setMainState] = useState([])
+  const [mainState, setMainState] = useState()
+
+  const addToMain = (theChosenPage) => {
+    setMainState(theChosenPage)
+  }
+
   return (
     <>
     <p>Logo</p>
-      <Navbar/>
-      <Main/>
+      <Navbar addToMain={addToMain} />
+      <Main mainState={mainState}/>
       <ExternalLinks/>
     </>
   )
