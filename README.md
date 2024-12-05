@@ -1,4 +1,5 @@
 Miles Tarricone, Justini Strohsnitter, Abdullah Durrani
+references: https://react.dev/reference/react/useEffect, chatGPT was used to trouble shoot at different times.
 
 planning for company webite:
 
