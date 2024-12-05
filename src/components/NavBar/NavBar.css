@@ -1,0 +1,16 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100vh;
+    border: 2px solid white;
+    margin: 0;
+    
+}
+.Navbar button {
+    /* display: flex; */
+    /* flex-direction: row; */
+    background-color: red;
+}
+/* button {
+    background-color: red;
+} */

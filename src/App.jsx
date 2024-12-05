@@ -13,6 +13,7 @@ import ExternalLinks from './components/ExternalLinks/ExternalLinks'
 function App() {
   return (
     <>
+    <p>Logo</p>
       <Navbar/>
       <Staff/>
       <History/>

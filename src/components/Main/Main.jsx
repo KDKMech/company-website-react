@@ -1,10 +1,14 @@
 import React from "react";
+import "./Main.css"
 
 
 const Main = (props) => {
+    const mainContent = `main content`
     return (
         <>
-            <h5>MainContent</h5>
+            <div id="MainContainer">
+            <h5>{mainContent}</h5>
+            </div>
         </>
     )
 }
