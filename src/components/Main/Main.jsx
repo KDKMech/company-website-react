@@ -9,6 +9,7 @@ const Main = (props) => {
     return (
         <>
             <div id="MainContainer">
+                
                 {props.mainState}
             </div>
         </>

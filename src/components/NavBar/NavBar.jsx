@@ -31,7 +31,7 @@ const Navbar = (props) => {
         <button name="pastWork">Past Work</button>
         <button name="contact">Contact Us</button> */}
         {buttons.map((banana, index) => {
-          return (<button key={index} onClick={handleChoice} value={banana.content}>{banana.page}</button>) 
+          return (<button key={index} onClick={handleChoice} value={banana.page}>{banana.page}</button>) 
         })}
       </div>
     </>
